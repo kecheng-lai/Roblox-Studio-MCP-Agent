@@ -1,0 +1,3 @@
+[submodule "open-game-eval"]
+	path = open-game-eval
+	url = https://github.com/Roblox/open-game-eval.git

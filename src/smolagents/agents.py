@@ -578,7 +578,6 @@ You have been provided with these additional arguments, that you can access dire
                 for output in self._step_stream(action_step):
                     # Yield all
                     yield output
-
                     if isinstance(output, ActionOutput) and output.is_final_answer:
                         final_answer = output.output
                         self.logger.log(
